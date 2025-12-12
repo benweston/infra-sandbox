@@ -1,4 +1,4 @@
-![Ben Weston — Cloud & Software Engineering](./assets/banner.jpg)
+![Ben Weston — Cloud & Software Engineering](./assets/banner.png)
 
 # Sandbox - Infra
 
