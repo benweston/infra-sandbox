@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "tfstate-946483"
-    prefix = "sandbox-infra/sandbox"
+    bucket = "tfstate-393781"
+    prefix = "sandbox-infra/sandbox/"
   }
 }

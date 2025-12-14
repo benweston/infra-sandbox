@@ -1,8 +1,8 @@
 resource "google_project" "sandbox_infra" {
-  name                = "Sandbox - Infra"
-  project_id          = "sandbox-infra-${random_integer.suffix.result}"
-  billing_account     = var.billing_account_id
-  auto_create_network = false
+  name            = "Sandbox - Infra"
+  project_id      = "sandbox-infra-${random_integer.suffix.result}"
+  billing_account = var.billing_account_id
+  deletion_policy = "DELETE"
 }
 
 resource "google_project_service" "enabled_apis" {
